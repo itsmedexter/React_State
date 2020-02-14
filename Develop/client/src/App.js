@@ -52,33 +52,33 @@ const App = () => {
   return (
     <Router>
       <div className="App">
-      <Container>
-
-        <Jumbotron />
         <Container>
-          <Row>
-            <Col size="md-12">
-            </Col>
-          </Row>
-        </Container>
-        
-            <Col size="md-12">
-              <Route
-                exact path="/"
-                component={() =>
-                  <Products
-                    getProducts={getProducts}
-                    products={products}
-                    addToCart={addToCart}
-                    cart={cart}
-                    removeFromCart={removeFromCart} />} />
-              <Route exact path="/cart" component={() => <ShoppingCart
-                cart={cart}
-                removeFromCart={removeFromCart}
-              />} />
 
-            </Col>
-            </Container>
+          <Jumbotron />
+          <Container>
+            <Row>
+              <Col size="md-12">
+              </Col>
+            </Row>
+          </Container>
+
+          <Col size="md-12">
+            <Route
+              exact path="/"
+              component={() =>
+                <Products
+                  getProducts={getProducts}
+                  products={products}
+                  addToCart={addToCart}
+                  cart={cart}
+                  removeFromCart={removeFromCart} />} />
+            <Route exact path="/cart" component={() => <ShoppingCart
+              cart={cart}
+              removeFromCart={removeFromCart}
+            />} />
+
+          </Col>
+        </Container>
 
       </div>
     </Router>
