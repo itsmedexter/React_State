@@ -6,10 +6,11 @@ const ShoppingCart = props => {
         <Link to="/"><button>Products</button></Link>
         {props.cart.map(product => {
             return (
-                <>
+                <>                
+                <h3>{product.name}</h3>
                 <p>{product.longDescription}</p>
-                <p>{product.name}</p>
                 <button onClick={() => props.removeFromCart(product)}>Remove From Cart</button>
+                <br /><br />
                 </>
             )
         } )}
