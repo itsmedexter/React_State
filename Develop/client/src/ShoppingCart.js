@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 
 const ShoppingCart = props => {
     return (<div>
-        <Link to="/">Products</Link>
+        <Link to="/"><button>Products</button></Link>
         {props.cart.map(product => {
             return (
                 <>
