@@ -16,7 +16,7 @@ Then suddenly, I thought, isn't there suppose to be a link to bootstrap for styl
 
 ## Getting Started
 
-To get started using the application, use any web browser to view live link, (https://boiling-hamlet-47682.herokuapp.com/). Repository link, (https://github.com/itsmedexter/unit19_State). If you download the repository, you can use gitbash to run mongod first, by typing in the command line "mongod". Then cd into server and do a "node server" to start server. Then cd into client and do a "npm start". This will automaticly open a browser window and have the application running.   
+To get started using the application, use any web browser to view live link, (https://pacific-cove-31239.herokuapp.com/). Repository link, (https://github.com/itsmedexter/unit19_State). If you download the repository, you can use gitbash to run mongod first, by typing in the command line "mongod". Then cd into server and do a "node server" to start server. Then cd into client and do a "npm start". This will automaticly open a browser window and have the application running.   
 
 ## Technolgies Used
 
@@ -30,7 +30,7 @@ To get started using the application, use any web browser to view live link, (ht
 
 ## Deployed Link
 
-* [See Live Site](https://boiling-hamlet-47682.herokuapp.com/)
+* [See Live Site](https://pacific-cove-31239.herokuapp.com/)
 
 
 ## Authors
